@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  /* Default: Dark Theme */
+  --background: #1e1e1e;
+  --foreground: #00FF00;
+  --accent: #00FFFF;
+}
+
+[data-theme="light"] {
+  /* Light Theme */
+  --background: #F5F5F5;
+  --foreground: #101820;
+  --accent: #FF8C00;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --font-mono: var(--font-source-code-pro);
+  --font-sans: var(--font-source-code-pro);
+  /* Use mono for everything as per spec */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-mono);
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
