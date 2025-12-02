@@ -12,11 +12,11 @@ interface Job {
 
 const jobs: Job[] = [
     {
-        company: "Ethn.io",
+        company: "(NDA) Targeted UX research recruitment",
         role: "DevOps Architect",
         period: "Dec 2023 - Present",
         details: [
-            "Migrated Ethnio (research CRM) from legacy VM infra to modern AWS ECS Container Architecture.",
+            "Migrated project (research CRM) from legacy VM infra to modern AWS ECS Container Architecture.",
             "Implemented secured, predictable infrastructure with 100% uptime using Terraform Cloud.",
             "Configured ALBs with robust health checks to eliminate risks and human error.",
             "Established GitOps workflow where 'master' branch is always production-ready.",
