@@ -25,7 +25,7 @@ const jobs: Job[] = [
         ]
     },
     {
-        company: "Qualysoft (Project: Pajak.go.id)",
+        company: "(NDA) (Project: Pajak.go.id)",
         role: "DevOps Architect",
         period: "Dec 2023 - Dec 2024",
         details: [
@@ -70,7 +70,10 @@ const jobs: Job[] = [
         role: "DevOps",
         period: "2019 - Mar 2020",
         details: [
-            "Configuring the RTB-servers up. Bash scripts. Cron. Zabbix. Replications. Agents. Nginx, Httpd, MySQL. Wordpress."
+            "Configured RTB servers for real-time bidding operations.",
+            "Developed Bash scripts for cron jobs",
+            "Monitored with Zabbix, handled replications, and managed Nginx",
+            "Managed Python, PHP, JS, Apache, MySQL and Popular CMSes."
         ]
     },
 ];

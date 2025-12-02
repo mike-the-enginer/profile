@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Phone, User } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function AgentContact() {
     return (
@@ -17,7 +18,7 @@ export default function AgentContact() {
                     <User size={16} className="text-accent shrink-0" />
                     <div>
                         <div className="text-[10px] opacity-60 uppercase">Agent Handler</div>
-                        <div className="font-bold">Artashes</div>
+                        <div className="font-bold">Artie</div>
                     </div>
                 </div>
 
@@ -32,6 +33,12 @@ export default function AgentContact() {
                     <Phone size={16} className="shrink-0" />
                     <a href="tel:+421919028987" className="hover:underline">
                         +421 919 028 987
+                    </a>
+                </div>
+                <div className="flex items-center gap-3 group-hover:text-accent transition-colors">
+                    <FaWhatsapp size={16} className="shrink-0" />
+                    <a href="https://wa.me/421919028987" className="hover:underline">
+                        WhatsApp
                     </a>
                 </div>
             </div>
